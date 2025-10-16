@@ -4,12 +4,12 @@ import { createI18nMiddleware } from 'next-international/middleware'
 import { updateSession } from '@/utils/supabase/middleware'
 
 const I18nMiddleware = createI18nMiddleware({
-    locales: ['en', 'es', 'ja'],  // 添加日语
-    defaultLocale: 'ja',           // 改为日语默认
+    locales: ['en', 'es', 'ja'],
+    defaultLocale: 'ja',
     urlMappingStrategy: 'rewrite',
     resolveLocaleFromRequest: (request) => {
-        const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || 'en'
-        return (userLanguage === 'en' || userLanguage === 'es') ? userLanguage : 'en'
+        const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || 'ja'
+        return (userLanguage === 'en' || userLanguage === 'es' || userLanguage === 'ja') ? userLanguage : 'ja'
     }
 })
 

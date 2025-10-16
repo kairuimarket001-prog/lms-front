@@ -1,13 +1,13 @@
-
-import HeroVideoDialogDemoTopInBottomOut from '@/components/example/hero-video-dialog-demo-top-in-bottom-out'
 import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import ChatOptionsShowcase from '@/components/home/ChatOptionsShowCase'
-import { FeaturesSection } from '@/components/home/FeaturesSection'
-import GeminiHeroSection from '@/components/home/GeminiCompetition'
-import OptionsSection from '@/components/home/OptionsSection'
-import ParticlesSection from '@/components/home/ParticlesSection'
-import WaitingList from '@/components/home/WaitingList'
+import HeroSection from '@/components/home/HeroSection'
+import StatsSection from '@/components/home/StatsSection'
+import FeaturesSection from '@/components/home/FeaturesSection'
+import CoursesSection from '@/components/home/CoursesSection'
+import HowItWorksSection from '@/components/home/HowItWorksSection'
+import TestimonialsSection from '@/components/home/TestimonialsSection'
+import PricingSection from '@/components/home/PricingSection'
+import CTASection from '@/components/home/CTASection'
+import Header from '@/components/home/Header'
 
 export const maxDuration = 30
 
@@ -15,16 +15,16 @@ export default async function Index() {
     return (
         <>
             <Header />
-            <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-between">
-                <ParticlesSection>
-                    <HeroVideoDialogDemoTopInBottomOut />
-                </ParticlesSection>
-                <ChatOptionsShowcase />
+            <main className="flex min-h-screen flex-col">
+                <HeroSection />
+                <StatsSection />
                 <FeaturesSection />
-                <GeminiHeroSection />
-                <OptionsSection />
-                <WaitingList />
-            </div>
+                <CoursesSection />
+                <HowItWorksSection />
+                <TestimonialsSection />
+                <PricingSection />
+                <CTASection />
+            </main>
             <Footer />
         </>
     )

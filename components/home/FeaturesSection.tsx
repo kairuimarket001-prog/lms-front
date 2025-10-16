@@ -7,32 +7,32 @@ import { useScopedI18n } from '@/app/locales/client'
 import { cn } from '@/utils'
 
 export function FeaturesSection() {
-    const t = useScopedI18n('landing.features')
+    const t = useScopedI18n('home.features')
 
     const features = [
         {
-            title: t('aiReviews.title'),
-            description: t('aiReviews.description'),
+            title: t('aiTutor.title'),
+            description: t('aiTutor.description'),
             skeleton: <SkeletonOne />,
             className:
                 'col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800',
         },
         {
-            title: t('professionalContentCreation.title'),
-            description: t('professionalContentCreation.description'),
+            title: t('structuredCourses.title'),
+            description: t('structuredCourses.description'),
             skeleton: <SkeletonTwo />,
             className: 'border-b col-span-1 lg:col-span-2 dark:border-neutral-800',
         },
         {
-            title: t('advancedInteractiveExams.title'),
-            description: t('advancedInteractiveExams.description'),
+            title: t('practicalExams.title'),
+            description: t('practicalExams.description'),
             skeleton: <SkeletonThree />,
             className:
                 'col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800',
         },
         {
-            title: t('fullyGenerativeUIChat.title'),
-            description: t('fullyGenerativeUIChat.description'),
+            title: t('realTimeAnalysis.title'),
+            description: t('realTimeAnalysis.description'),
             skeleton: <SkeletonFour />,
             className: 'col-span-1 lg:col-span-3 border-b lg:border-none',
         },
@@ -45,7 +45,7 @@ export function FeaturesSection() {
                 </h4>
 
                 <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
-                    {t('description')}
+                    {t('subtitle')}
                 </p>
             </div>
 

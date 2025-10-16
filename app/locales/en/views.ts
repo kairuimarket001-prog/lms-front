@@ -1,90 +1,176 @@
 export default {
-    landing: {
-        title: 'Next Gen AI-Powered Learning',
-        description:
-            'Dive into expertly crafted courses spanning from English to advanced programming, guided by AI and human experts to maximize your potential.',
-        getEarlyAccess: 'Get Early Access',
-        betaBadge: 'We are currently in beta. Get early access now!',
+    home: {
+        hero: {
+            badge: 'AI Stock Investment Education Platform',
+            title: 'Learn Stock Investing with AI',
+            subtitle: 'Next-Generation Investment Education',
+            description: 'Revolutionary stock investment education platform powered by LLM. Dramatically improve your investment skills with professional knowledge and AI technology.',
+            primaryCTA: 'Start Free',
+            secondaryCTA: 'Browse Courses',
+            watchDemo: 'Watch Demo',
+            stats: {
+                students: 'Students',
+                courses: 'Courses',
+                satisfaction: 'Satisfaction',
+                certifications: 'Certifications'
+            }
+        },
         features: {
-            title: 'Packed with Innovative Features',
-            description:
-                'Experience educational excellence with a suite of powerful AI-driven tools designed to personalize and enhance your learning journey.',
-            aiReviews: {
-                title: 'AI-Powered Lesson Reviews',
-                description:
-                    "Get instant feedback from our artificial intelligence on your assigned tasks. Complete your lessons with confidence, knowing you'll receive real-time suggestions for improvement or an immediate pass when you've mastered the material.",
+            title: 'Stock AI Dojo Features',
+            subtitle: 'Best learning experience with AI technology and expertise',
+            aiTutor: {
+                title: 'AI Personal Tutor',
+                description: '24/7 dedicated AI tutor answers your stock investment questions instantly. Maximize learning efficiency with real-time feedback.'
             },
-            professionalContentCreation: {
-                title: 'Professional Content Creation',
-                description:
-                    'Every lesson is crafted by industry professionals to ensure high-quality, relevant content that stays current with trends and best practices.',
+            structuredCourses: {
+                title: 'Structured Curriculum',
+                description: 'Comprehensive stock investment courses designed for all levels. From basics to advanced investment strategies.'
             },
-            advancedInteractiveExams: {
-                title: 'Advanced Interactive Exams',
-                description:
-                    'Transform your preparation with AI-generated exam forms, featuring various question types, from multiple choice to free text. Submit your answers for immediate AI evaluation and detailed feedback',
+            practicalExams: {
+                title: 'Practical Exam System',
+                description: 'Various exam formats including multiple choice, essays, and case studies. Instant AI evaluation with detailed feedback.'
             },
-            fullyGenerativeUIChat: {
-                title: 'Fully Generative UI AI Chat',
-                description:
-                    'Engage with the most advanced AI language models in our chat interface. Get instant answers to your questions, personalized recommendations, and more.',
+            realTimeAnalysis: {
+                title: 'Real-Time Market Analysis',
+                description: 'AI analyzes latest market data and provides insights for investment decisions. Bridge theory and practice.'
             },
+            interactiveLearning: {
+                title: 'Interactive Learning',
+                description: 'Acquire practical skills through simulations, case studies, and group discussions.'
+            },
+            certifications: {
+                title: 'Certifications',
+                description: 'Earn industry-recognized certificates upon course completion. Prove your investment knowledge.'
+            }
         },
-        joinPlatform: {
-            title: "Don't Miss Out! Join this amazing platform today.",
-            description:
-                'Be part of an educational revolution. Subscribe now and unlock your potential with our AI-powered LMS.',
-            items: {
-                builtForAllLearners: {
-                    title: 'Built for All Learners',
-                    description:
-                        'From beginners to experts, our platform supports every learning journey.',
-                },
-                easeOfUse: {
-                    title: 'Ease of use',
-                    description:
-                        'User-friendly interface that makes learning as simple and engaging as it should be.',
-                },
-                affordablePricing: {
-                    title: 'Affordable Pricing',
-                    description:
-                        'Competitive rates with no hidden fees. Choose what works best for you.',
-                },
-                satisfactionGuaranteed: {
-                    title: 'Satisfaction Guaranteed',
-                    description:
-                        "Money-back guarantee if our service doesn't meet your expectations.",
-                },
-                buildWithLove: {
-                    title: 'Build with love',
-                    description:
-                        'We are a team of passionate individuals who love what we do.',
-                },
-                buildWithNextjs: {
-                    title: 'Built with Next.js',
-                    description:
-                        'Next.js is a React framework that makes it easy to build fast, production-ready web applications.',
-                },
+        courses: {
+            title: 'Learning Courses',
+            subtitle: 'Choose the best course for your level',
+            beginner: {
+                title: 'Beginner Course',
+                description: 'Learn stock investing from basics',
+                topics: [
+                    'How stock markets work',
+                    'Basic terms and concepts',
+                    'Opening investment accounts',
+                    'Risk management fundamentals'
+                ]
             },
+            intermediate: {
+                title: 'Intermediate Course',
+                description: 'Technical and fundamental analysis',
+                topics: [
+                    'Chart analysis basics',
+                    'Reading financial statements',
+                    'Industry analysis methods',
+                    'Portfolio construction'
+                ]
+            },
+            advanced: {
+                title: 'Advanced Course',
+                description: 'Advanced investment strategies and risk management',
+                topics: [
+                    'Options trading',
+                    'Hedging strategies',
+                    'Macroeconomic analysis',
+                    'Introduction to algorithmic trading'
+                ]
+            }
         },
-        geminiCompetition: {
-            title: 'Gemini API Developer Competition',
-            description:
-                'We are currently selected for the Gemini API Developer Competition. Vote for us and help us win the competition.',
-            voteForUs: 'Vote for us',
+        howItWorks: {
+            title: 'How It Works',
+            subtitle: 'Get started in 3 simple steps',
+            step1: {
+                title: 'Create Account',
+                description: 'Sign up for free and take a level assessment test.'
+            },
+            step2: {
+                title: 'Choose Course',
+                description: 'AI recommends courses based on your level and goals.'
+            },
+            step3: {
+                title: 'Start Learning',
+                description: 'Learn at your own pace with AI tutor support.'
+            }
         },
-        waitingList: {
-            title: 'Ready to signup and join the waitlist?',
-            description:
-                'Get instant access to our state of the art project and join the waitlist.',
-            joinWaitlist: 'Join Waitlist',
+        testimonials: {
+            title: 'Student Testimonials',
+            subtitle: 'Hear from our students'
+        },
+        cta: {
+            title: 'Start Your Investment Education Today',
+            description: 'Take your investment skills to the next level with AI personal tutor',
+            button: 'Start Free',
+            note: 'No credit card required'
         },
     },
-    aboutUs: {
-        title: 'About Us',
-        empoweringTheWorld: 'Empowering the world with LMS-AI.',
+    pricing: {
+        title: 'Pricing Plans',
+        subtitle: 'Choose the best plan for you',
+        monthly: 'Monthly',
+        yearly: 'Yearly (Save 2 months)',
+        basic: {
+            name: 'Basic',
+            price: '$89',
+            period: '/month',
+            description: 'For beginners',
+            features: [
+                'Full access to beginner courses',
+                'AI chat support',
+                'Basic level exams',
+                'Community access',
+                'Monthly reports'
+            ],
+            cta: 'Get Started'
+        },
+        standard: {
+            name: 'Standard',
+            price: '$179',
+            period: '/month',
+            description: 'For serious learners',
+            popular: 'Most Popular',
+            features: [
+                'All level course access',
+                'Priority AI support',
+                'Unlimited exam attempts',
+                'Practice simulator',
+                'Live seminar access',
+                'Personal learning plan',
+                'Weekly performance analysis'
+            ],
+            cta: 'Get Started'
+        },
+        premium: {
+            name: 'Premium',
+            price: '$359',
+            period: '/month',
+            description: 'Professional training',
+            features: [
+                'All Standard features',
+                'Dedicated mentor (4x/month)',
+                'Private consulting',
+                'Advanced market analysis tools',
+                'Custom strategy development',
+                'Certification exam prep',
+                'VIP community',
+                'Lifetime updates'
+            ],
+            cta: 'Get Started'
+        }
+    },
+    about: {
+        title: 'About Stock AI Dojo',
+        mission: {
+            title: 'Our Mission',
+            description: 'Provide high-quality stock investment education to everyone using AI technology.'
+        },
+        vision: {
+            title: 'Our Vision',
+            description: 'Create the future of investment education and support investor success.'
+        },
+        empoweringTheWorld: 'Empowering investors with AI-powered education.',
         description:
-            "We're a team of developers who loves to build and create. We're passionate about our work and we're always looking for new ways to improve our skills.",
+            "We're a team dedicated to revolutionizing investment education through AI technology. Our passion is helping people achieve financial literacy and investment success.",
         timeline: {
             title: 'Changelog from our journey',
             description:
