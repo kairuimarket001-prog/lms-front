@@ -4,8 +4,8 @@ import { createI18nMiddleware } from 'next-international/middleware'
 import { updateSession } from '@/utils/supabase/middleware'
 
 const I18nMiddleware = createI18nMiddleware({
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
+    locales: ['en', 'es', 'ja'],  // 添加日语
+    defaultLocale: 'ja',           // 改为日语默认
     urlMappingStrategy: 'rewrite',
     resolveLocaleFromRequest: (request) => {
         const userLanguage = request.headers.get('accept-language')?.split(',')[0].split('-')[0] || 'en'
