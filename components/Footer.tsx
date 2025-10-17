@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { TrendingUp, Twitter, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react'
+import { Facebook, Linkedin, Mail, MapPin, Phone, TrendingUp, Twitter, Youtube } from 'lucide-react'
 
 import { getScopedI18n } from '@/app/locales/server'
 

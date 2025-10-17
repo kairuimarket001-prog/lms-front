@@ -1,8 +1,7 @@
 import Link from 'next/link'
-import { ArrowRight, TrendingUp, Brain, BarChart3 } from 'lucide-react'
+import { ArrowRight, BarChart3, Brain, TrendingUp } from 'lucide-react'
 
 import { getScopedI18n } from '@/app/locales/server'
-
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 

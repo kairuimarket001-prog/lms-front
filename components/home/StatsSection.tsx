@@ -1,4 +1,4 @@
-import { TrendingUp, Users, BookOpen, Award } from 'lucide-react'
+import { Award, BookOpen, TrendingUp, Users } from 'lucide-react'
 
 import { getScopedI18n } from '@/app/locales/server'
 
