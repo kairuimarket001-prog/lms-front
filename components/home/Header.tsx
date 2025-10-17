@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import { TrendingUp } from 'lucide-react'
 
+import { getScopedI18n } from '@/app/locales/server'
+
 import AuthButton from '../AuthButton'
 import { DarkThemeToggle } from '../DarkThemeToggle'
-import { getScopedI18n } from '@/app/locales/server'
 
 const Header = async () => {
     const t = await getScopedI18n('header')

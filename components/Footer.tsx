@@ -1,7 +1,8 @@
-import { TrendingUp, Twitter, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react'
 import Link from 'next/link'
+import { TrendingUp, Twitter, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react'
 
 import { getScopedI18n } from '@/app/locales/server'
+
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 
@@ -33,19 +34,23 @@ export default async function Footer() {
                         {/* Social Links */}
                         <div className="flex gap-3">
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                               className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors">
+                                className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                            >
                                 <Twitter className="h-4 w-4 text-gray-600 dark:text-gray-400" />
                             </a>
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                               className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors">
+                                className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                            >
                                 <Facebook className="h-4 w-4 text-gray-600 dark:text-gray-400" />
                             </a>
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                               className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors">
+                                className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                            >
                                 <Linkedin className="h-4 w-4 text-gray-600 dark:text-gray-400" />
                             </a>
                             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
-                               className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors">
+                                className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                            >
                                 <Youtube className="h-4 w-4 text-gray-600 dark:text-gray-400" />
                             </a>
                         </div>

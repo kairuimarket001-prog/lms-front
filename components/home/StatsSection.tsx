@@ -1,4 +1,5 @@
 import { TrendingUp, Users, BookOpen, Award } from 'lucide-react'
+
 import { getScopedI18n } from '@/app/locales/server'
 
 export default async function StatsSection() {

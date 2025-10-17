@@ -1,8 +1,10 @@
-import { getScopedI18n } from '@/app/locales/server'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
-import { ArrowRight, TrendingUp, Brain, BarChart3 } from 'lucide-react'
 import Link from 'next/link'
+import { ArrowRight, TrendingUp, Brain, BarChart3 } from 'lucide-react'
+
+import { getScopedI18n } from '@/app/locales/server'
+
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 
 export default async function HeroSection() {
     const t = await getScopedI18n('home.hero')

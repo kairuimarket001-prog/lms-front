@@ -6,7 +6,7 @@ import React from 'react'
 import { useScopedI18n } from '@/app/locales/client'
 import { cn } from '@/utils'
 
-export function FeaturesSection() {
+export default function FeaturesSection() {
     const t = useScopedI18n('home.features')
 
     const features = [
